@@ -66,11 +66,11 @@ def check_password(password):
         feedback.append("Avoid repeated characters.")
 
     if score >= 80:
-        strength = "🔥 Very Strong"
+        strength = " Very Strong"
     elif score >= 60:
-        strength = "⚠️ Medium"
+        strength = " Medium"
     else:
-        strength = "❌ Weak"
+        strength = " Weak"
 
     return score, strength, feedback
 
